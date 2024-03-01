@@ -1,0 +1,101 @@
+
+html{
+    height: 1700px;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.section{
+    width: 100vh;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px; 
+}
+.section img{
+    width: 700px; 
+    border-radius: 10px; 
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
+}
+.main .tituli-1{
+    font-size: 3rem;
+    padding: 20px 0;
+}
+.main .inf{
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 20px;
+}
+.main .passo {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+}
+.main .passo h2{
+    padding-bottom: 10px;
+}
+.main .passo ul{
+    margin-left: 20px;
+    padding: 5px;
+}
+.main .passo li{
+    padding: 8px;
+}
+.ingredientes{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+}
+.main .ingredientes h2{
+    padding: 20px 0;
+    
+    
+}
+.main .ingredientes ul{
+    margin-left: 20px;
+    padding: 5px;
+}
+.main .ingredientes li{
+padding: 8px;
+}
+.instricao{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
+.main .instricao{
+    padding: 10px;
+}
+.main .instricao h2{
+    margin: 10px 0;
+}
+.main .instricao li{
+    margin-left: 20px;
+    padding: 5px;
+}
+.footer{
+    text-align: justify;
+    margin-right: 129px;
+}
+.footer h2{
+    padding: 20px 0;
+}
+.footer p{
+    padding: 0px 0 20px 0;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    list-style-type: none;
+}
+.footer li{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+}
